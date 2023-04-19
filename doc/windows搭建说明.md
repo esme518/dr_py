@@ -60,4 +60,4 @@ python app.py
 同样,没有错误提示的话就可以在**这台电脑打开**[链接](http://localhost:5705/index)
 
 ---
-如果有问题,请提出[issue](https://gitcode.net/qq_32394351/dr_py/-/issues?spm=1033.2243.3001.5874)
+如果有问题,请提出[issue](https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/issues?spm=1033.2243.3001.5874)

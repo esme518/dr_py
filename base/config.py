@@ -52,6 +52,6 @@ SEARCH_TIMEOUT = 5000 # 聚搜超时毫秒
 SEARCH_LIMIT = 24 # 聚搜限制条数
 MULTI_MODE = 0  # 多源模式
 XR_MODE = 1  # 仙人模式
-JS_PROXY = 'http://localhost:5705/admin/view/=>https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/'  # 源代理
+JS_PROXY = 'http://localhost:5705/admin/view/=>https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/raw/master/js/'  # 源代理
 ALI_TOKEN = '' # 适用于初始配置的阿里云token
 ENV = '{"bili_cookie":""}'  # 自定义环境变量

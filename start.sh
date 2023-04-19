@@ -2,7 +2,7 @@
 # 建立文件夹
 mkdir -p /home/pywork/dr_py && cd /home/pywork/dr_py
 # 下载仓库包
-wget https://gitcode.net/qq_32394351/dr_py/-/archive/master/dr_py-master.tar.gz
+wget https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/archive/master/dr_py-master.tar.gz
 # 解压
 tar -xzvf dr*.tar.gz
 # 移动文件到当前目录

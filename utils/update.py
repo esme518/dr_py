@@ -73,7 +73,8 @@ def getOnlineVer():
     ver = '1.0.1'
     msg = ''
     try:
-        r = requests.get('https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/version.txt',timeout=(2,2))
+        # r = requests.get('https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/version.txt',timeout=(2,2))
+        r = requests.get('https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/raw/master/js/version.txt',timeout=(2,2))
         ver = r.text
     except Exception as e:
         # print(f'{e}')
@@ -167,7 +168,8 @@ def download_new_version():
     base_path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))  # 上级目录
     tmp_path = os.path.join(base_path, f'tmp')
     os.makedirs(tmp_path,exist_ok=True)
-    url = 'https://gitcode.net/qq_32394351/dr_py/-/archive/master/dr_py-master.zip'
+    # url = 'https://gitcode.net/qq_32394351/dr_py/-/archive/master/dr_py-master.zip'
+    url = 'https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/archive/master.zip'
     # tmp_files = os.listdir(tmp_path)
     # for tp in tmp_files:
     #     print(f'清除缓存文件:{tp}')
