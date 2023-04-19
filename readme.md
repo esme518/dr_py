@@ -1,7 +1,7 @@
 [comment]: <> (#### 🚀dr模板的python实现🚀)
 <div align="center">
 <h4>🚀第二派-dr模板的python实现🚀</h4>
-  <a href="https://alist.nn.ci"><img height="100px" alt="logo" src="https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/raw/1fe0e082b1ceacc4469d7f175a605cc2edf0bab0/static/img/icon.png"/></a>
+  <a href="https://alist.nn.ci"><img height="100px" alt="logo" src="https://gitlink.org.cn/api/attachments/416487"/></a>
   <p><em>🗂️A webServer convert web and x5 movie sites to cms api data</em></p>
   <a href="https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/releases">
     <img src="https://img.shields.io/badge/version-3.9.34-blue" alt="latest version" />
