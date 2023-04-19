@@ -52,6 +52,14 @@
 [dr项目QQ官群](https://qm.qq.com/cgi-bin/qm/qr?k=H2KwcXrMdiR5M2blHR5gjZzPfN_S3N_C&jump_from=webapi)  
 
 
+#### 项目修复
+进入容器drpy项目根目录执行以下代码
+```shell
+cd utils && rm update.py && wget https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/raw/master/utils/update.py
+```
+执行后重启9001或者docker即可正常检测升级
+
+
 #### 参考地址
 [参考T4](https://github.com/sec-an/TV_Spider/blob/main/spider/sp360.py)   
 [golang最好的js引擎-otto](https://github.com/robertkrimen/otto)   
