@@ -1,7 +1,7 @@
 // import _ from 'https://underscorejs.org/underscore-esm-min.js'
 // import {distance} from 'https://unpkg.com/fastest-levenshtein@1.0.16/esm/mod.js'
-import {distance} from 'https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/raw/master/libs/mod.js'
-import {sortListByCN} from 'https://code.gitlink.org.cn/api/v1/repos/hjdhnx/dr_py/raw/master/libs/sortName.js'
+import {distance} from './mod.js'
+import {sortListByCN} from './sortName.js'
 
 /**
  * alist js
