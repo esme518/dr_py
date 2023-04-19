@@ -127,7 +127,7 @@ def force_copy_files(from_path, to_path, exclude_files=None):
 def copy_to_update():
     base_path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))  # 上级目录
     tmp_path = os.path.join(base_path, f'tmp')
-    dr_path = os.path.join(tmp_path, f'dr_py-master')
+    dr_path = os.path.join(tmp_path, f'dr_py')
     if not os.path.exists(dr_path):
         # print(f'升级失败,找不到目录{dr_path}')
         logger.info(f'升级失败,找不到目录{dr_path}')
