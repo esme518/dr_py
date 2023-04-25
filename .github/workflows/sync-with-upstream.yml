@@ -18,7 +18,7 @@ jobs:
       with:
         # optional: set the branch to checkout,
         # sync action checks out your 'target_sync_branch' anyway
-        ref: master
+        ref: main
 
     # REQUIRED step
     # Step 2: run the sync action
