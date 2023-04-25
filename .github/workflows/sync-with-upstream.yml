@@ -26,12 +26,12 @@ jobs:
       id: sync
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
       with:
-        target_sync_branch: master
+        target_sync_branch: main
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.GH_PAT }}
-        upstream_sync_branch: master
+        upstream_sync_branch: main
         upstream_sync_repo: hjdhnx/dr_py
-        host_domain: code.gitlink.org.cn
+        host_domain: github.com
 
     # Step 3: Display a sample message based on the sync output var 'has_new_commits'
     - name: New commits found
